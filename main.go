@@ -10,9 +10,9 @@ import (
 	"os/signal"
 	"time"
 
+	expand "github.com/Vavilen/gopostal/expand"
+	parser "github.com/Vavilen/gopostal/parser"
 	"github.com/gorilla/mux"
-	expand "github.com/openvenues/gopostal/expand"
-	parser "github.com/openvenues/gopostal/parser"
 )
 
 type Request struct {
